@@ -47,24 +47,24 @@ const Projects = () => {
           Completed
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto dark:text-gray-400">
         Crafting Spaces, Building Legacies-Explore Our Portfolio
       </p>
 
       <div className="flex justify-end items-center mb-8">
         <button
-          className="p-3 bg-gray-200 rounded mr-2"
+          className="p-3 bg-gray-200 rounded mr-2 dark:bg-gray-300"
           aria-label="Previous Project"
            onClick={prevProject}
         >
-          <FaArrowCircleLeft/>
+          <FaArrowCircleLeft className="dark:text-black"/>
         </button>
         <button
-          className="p-3 bg-gray-200 rounded mr-2"
+          className="p-3 bg-gray-200 rounded mr-2 dark:bg-gray-300"
           aria-label="Previous Project"
            onClick={nextProject}
         >
-          <FaArrowCircleRight/>
+          <FaArrowCircleRight className="dark:text-black"/>
         </button>
       </div>
 

@@ -19,7 +19,7 @@ const Testimonial = () => {
           Testimonials
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto dark:text-gray-400">
         Real Stories from Those Who Found Home with Us
       </p>
 
@@ -34,16 +34,16 @@ const Testimonial = () => {
               alt=""
               className="w-20 h-20 rounded-full mx-auto mb-4"
             />
-            <h2 className="text-xl text-gray-700 font-medium">
+            <h2 className="text-xl text-gray-700 font-medium dark:text-white">
               {testimonial.name}
             </h2>
-            <p className="text-gray-500 mb-4 text-sm">{testimonial.title}</p>
+            <p className="text-gray-500 mb-4 text-sm dark:text-gray-400">{testimonial.title}</p>
             <div className="flex justify-center gap-1 text-red-500 mb-4 mt-4">
               {Array.from({ length: testimonial.rating }, (item, index) => (
                 <FaStar key={index} className="text-yellow-600" />
               ))}
             </div>
-            <p className="text-gray-600">{testimonial.text}</p>
+            <p className="text-gray-600 dark:text-gray-400">{testimonial.text}</p>
           </div>
         ))}
       </div>

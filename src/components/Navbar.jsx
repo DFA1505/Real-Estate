@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Logo from '../assets/Logo.png'
 import MenuIcon from '../assets/menuicon.png'
 import { IoClose } from "react-icons/io5";
+import DarkMode from './DarkMode';
 
 const Navbar = () => {
 
@@ -28,7 +29,8 @@ const Navbar = () => {
             <a  href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
             <a  href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
         </ul>
-        <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign Up</button>
+        <DarkMode />
+        <button className='hidden md:block bg-white px-8 py-2 rounded-full dark:text-black'>Sign Up</button>
         <img onClick={()=> setShowMobileMenu(true)} src={MenuIcon} alt="" className='md:hidden w-7'/>
       </div>
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowCircleLeft } from "react-icons/fa/FaArrowCircleLeft";
-import { FaArrowCircleRight } from "react-icons/fa/FaArrowCircleRight";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 import { projectsData } from "../assets/assets";
 import { motion } from "motion/react";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { testimonialsData } from "../assets/assets";
-import { FaStar } from "react-icons/fa";
+import { IoIosStar } from "react-icons/io";
 import { motion } from "motion/react";
 
 const Testimonial = () => {
@@ -40,7 +40,7 @@ const Testimonial = () => {
             <p className="text-gray-500 mb-4 text-sm dark:text-gray-400">{testimonial.title}</p>
             <div className="flex justify-center gap-1 text-red-500 mb-4 mt-4">
               {Array.from({ length: testimonial.rating }, (item, index) => (
-                <FaStar key={index} classname='text-yellow-600'/>
+                <IoIosStar key={index} classname='text-yellow-600'/>
               ))}
             </div>
             <p className="text-gray-600 dark:text-gray-400">{testimonial.text}</p>

@@ -1,6 +1,6 @@
 import React from "react";
 import { testimonialsData } from "../assets/assets";
-import { FaStar } from "react-icons/fa/FaStar";
+import { FaStar } from "react-icons/fa";
 import { motion } from "motion/react";
 
 const Testimonial = () => {

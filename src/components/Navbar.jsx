@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Logo from '../assets/Logo.png'
 import MenuIcon from '../assets/menuicon.png'
-import { IoClose } from "react-icons/io5";
+import { IoClose } from "react-icons/io5/IoClose";
 import DarkMode from './DarkMode';
 
 const Navbar = () => {
